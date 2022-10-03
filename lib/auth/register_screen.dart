@@ -51,9 +51,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         filled: true,
                         prefixIcon: const Icon(
                           Icons.person,
-                          color: Colors.black,
+                          color: Colors.pink,
                         ),
-                        hintText: "Full Name",
+                        hintText: "Full name",
                         hintStyle: GoogleFonts.poppins(
                           fontSize: 17,
                         ),
@@ -72,7 +72,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         filled: true,
                         prefixIcon: const Icon(
                           Icons.email,
-                          color: Colors.black,
+                          color: Colors.pink,
                         ),
                         hintText: "Email",
                         hintStyle: GoogleFonts.poppins(fontSize: 17),
@@ -92,7 +92,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           filled: true,
                           prefixIcon: const Icon(
                             Icons.lock,
-                            color: Colors.black,
+                            color: Colors.pink,
                           ),
                           hintText: "Password",
                           hintStyle: GoogleFonts.poppins(fontSize: 17),
@@ -107,6 +107,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                   /// CHeck Show & Hide.
                                   Icons.visibility
                                   : Icons.visibility_off,
+                              color: Colors.pink,
                             ),
                           ),
                           border: OutlineInputBorder(
