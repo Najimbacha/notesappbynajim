@@ -44,10 +44,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    TextField(
+                    TextFormField(
                       keyboardType: TextInputType.name,
                       decoration: InputDecoration(
-                        fillColor: Colors.brown[100],
+                        fillColor: Colors.grey[400],
                         filled: true,
                         prefixIcon: const Icon(
                           Icons.person,
@@ -65,10 +65,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     const SizedBox(
                       height: 25,
                     ),
-                    TextField(
+                    TextFormField(
                       keyboardType: TextInputType.emailAddress,
                       decoration: InputDecoration(
-                        fillColor: Colors.brown[100],
+                        fillColor: Colors.grey[400],
                         filled: true,
                         prefixIcon: const Icon(
                           Icons.email,
@@ -84,11 +84,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     const SizedBox(
                       height: 30,
                     ),
-                    TextField(
+                    TextFormField(
                       obscureText: _isHidden,
                       keyboardType: TextInputType.number,
                       decoration: InputDecoration(
-                          fillColor: Colors.brown[100],
+                          fillColor: Colors.grey[400],
                           filled: true,
                           prefixIcon: const Icon(
                             Icons.lock,
